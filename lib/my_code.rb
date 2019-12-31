@@ -1,5 +1,3 @@
-# My Code here....
-
 def map_to_negativize(source_array)
   i = 0
   result = []
@@ -34,5 +32,12 @@ def map_to_double(source_array)
 end 
 
 def map_to_square(source_array)
+  i = 0
+  result = []
   
+  while i < source_array.length do
+    result[i] = source_array[i] * 2 
+    i += 1
+  end
+  result
 end
