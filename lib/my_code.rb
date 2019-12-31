@@ -4,11 +4,11 @@ def map_to_negativize(source_array)
   i = 0
   result = []
   
-  while i < source_array.size do
-    returnArr[i] = source_array[i]*(-1)
+  while i < source_array.length do
+    result[i] = source_array[i]*(-1)
     i+=1
   end
-  returnArr
+  result
 end
 
 def map_to_no_change(source_array)
