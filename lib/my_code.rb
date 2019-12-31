@@ -16,7 +16,7 @@ def map_to_no_change(source_array)
   result = []
   
   while i < source_array.length do
-    result[i] = source_array[i] * 2 
+    result[i] = source_array[i] 
     i += 1
   end
   result
@@ -27,7 +27,7 @@ def map_to_double(source_array)
   result = []
   
   while i < source_array.length do
-    result[i] = source_array[i]
+    result[i] = source_array[i] * 2 
     i += 1
   end
   result
